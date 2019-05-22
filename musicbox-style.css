@@ -1,3 +1,61 @@
 /*
 TODO(you): Write any additional styles you need here.
 */
+#musicbox{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    position:relative
+}
+.gif1{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+.gif2{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    z-index: -1;
+    position: absolute;
+    top   : 0;
+    left  : 0;
+    bottom: 0;
+    right : 0;
+    opacity: 0.0;
+}
+.bottom{
+    height: 70px;
+}
+
+.button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+}
+.stopping{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    content: url("images/play.png");
+}
+.playing{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    content: url("images/pause.png");
+}
